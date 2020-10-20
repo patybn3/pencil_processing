@@ -1,4 +1,4 @@
-# Assigment 4
+# Assignment 4
 
 ## Name: Patricia Antlitz
 Professor Ethel Schuster

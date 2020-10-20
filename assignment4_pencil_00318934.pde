@@ -1,31 +1,31 @@
-/* Assigment 4
+/* Assignment 4
 Student ID: 00318934
 Name: Patricia Antlitz
 Professor Ethel Schuster
 Introduction to Computer Science CIS-140
 4 October 2020
 
-- The purpose of this code is to create a pencil drawing using Processing. 
+- The purpose of this code is to create a pencil drawing using Processing.
 
-I originally made a regular pencil with straight forward instructions (which I saved the 
-code on a separate file if needed) since my original algorithm was too detailed. So I 
-followed my second algorithm on that code, but since the Professor asked for us to impress her, 
+I originally made a regular pencil with straight forward instructions (which I saved the
+code on a separate file if needed) since my original algorithm was too detailed. So I
+followed my second algorithm on that code, but since the Professor asked for us to impress her,
 I decided to take the next step.
 
-I have researched various tools and functions to make the pencil 3D. That includes, 
+I have researched various tools and functions to make the pencil 3D. That includes,
 P3D, for loops, light(), directLight(), translate(), shadows, etc. Everything I implemented
 did not give the effect I wanted (except by shadow, I couldn't find this function. I dont know
 if it exists). I would like to learn more about 3D and light effects. I also
-did not want to make this code too long and complicated (I am known for that). I decided to 
+did not want to make this code too long and complicated (I am known for that). I decided to
 play with the colors instead. This design will be built in a 8-bit color "scheme" style (not
 really 8-bit).
-    
+
 This tutorial uses the following functions:
- 
+
  size, background, noStroke, fill, ellipse, rect, triangle, smooth.
- 
+
  Code structure:
- 
+
  - variables for colors
  - setup
    - screen size
@@ -76,19 +76,19 @@ noStroke();
 
 // wrap shapes into draw
 void draw() {
-  
+
 // add a background color to the screen of light yellow using the background variable.
 background(background);
 
 
-// Eraser. 
+// Eraser.
 // Fill the eraser with the color called eraser, neon green.
 fill(eraser);
 // create an ellipse and place it at x=255, y=80 and make it 30px wide and 36px tall.
 ellipse(255, 80, 30, 36);
 
 
-// Eraser holder / Ferrule. 
+// Eraser holder / Ferrule.
 /* We are going to make three rectangles of different sizes and colors and place them one inside
 of the other, first set the color of the first rectangle to darkgray. */
 fill(darkgray);
@@ -109,22 +109,22 @@ rect(250, 85, 10, 40); // Eraser holder should have a total of 30px width and 40
 
 
 // Pencil body.
-/* This will follow a different pattern than the previous one. We are going to make three 
+/* This will follow a different pattern than the previous one. We are going to make three
 rectangles of the same size and place it at different x values on the screen, increasing by 10,
 which is also the width of all rectangles. */
 // Fill the first rectangle with the color pink1.
 fill(pink1);
-/* Make a rectangle and place it a x=240, y=100 and give it a height of 300px and a width 
+/* Make a rectangle and place it a x=240, y=100 and give it a height of 300px and a width
 of 10px. */
 rect(240, 100, 10, 300);
 // Fill the second rectangle with the color pink2.
 fill(pink2);
-/* Make a rectangle and place it a x=250, y=100 and give it a height of 300px and a width 
+/* Make a rectangle and place it a x=250, y=100 and give it a height of 300px and a width
 of 10px. */
 rect(250, 100, 10, 300);
 // Fill the last rectangle with the color pink3
 fill(pink3);
-/* Make a rectangle and place it a x=260, y=100 and give it a height of 300px and a width 
+/* Make a rectangle and place it a x=260, y=100 and give it a height of 300px and a width
 of 10px. */
 rect(260, 100, 10, 300); // pencil body should have a total of 30px width and 300px height.
 
