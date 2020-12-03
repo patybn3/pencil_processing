@@ -22,6 +22,7 @@ really 8-bit).
 
 This tutorial uses the following functions:
 
+
  size, background, noStroke, fill, ellipse, rect, triangle, smooth.
 
  Code structure:
@@ -38,3 +39,15 @@ This tutorial uses the following functions:
    - Pencil Body
    - Wood tip
    - Lead
+
+## Patricia Antlitz Pencil:
+
+<img width="502" alt="assignment4_pencil_00318934" src="https://user-images.githubusercontent.com/59259041/100962152-cada5100-34f1-11eb-990a-fb95e020207d.png">
+
+## Drew's code image:
+
+<img width="496" alt="patricia_recreates_drews_pencil" src="https://user-images.githubusercontent.com/59259041/100962209-e5142f00-34f1-11eb-9a81-c06a5147bf2d.png">
+
+## Kailey's code image:
+
+<img width="1004" alt="Keiley's_pencil_byPatricia_Antlitz" src="https://user-images.githubusercontent.com/59259041/100962232-efcec400-34f1-11eb-8bea-7dff6078c113.png">
